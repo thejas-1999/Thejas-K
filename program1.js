@@ -38,4 +38,16 @@ class Calculator {
 }
 
 const add = new Calculator(7, 4, "Addition");
-console.log(add.calculations());
+console.log(`Sum = ${add.calculations()}`);
+
+const sub = new Calculator(5, 4, "subtraction");
+console.log(`Difference = ${sub.calculations()}`);
+
+const mul = new Calculator(6, 4, "multiplication");
+console.log(`Product = ${mul.calculations()}`);
+
+const div = new Calculator(20, 4, "division");
+console.log(`quotient = ${div.calculations()}`);
+
+const div2 = new Calculator(6, 0, "division");
+console.log(`quotient = ${div2.calculations()}`);
